@@ -4,7 +4,7 @@ import { action } from '@ember/object';
 
 export default class LoginFormComponent extends Component {
   @tracked
-  userId = 1;
+  userId = null;
 
   get isDisabled() {
     return !this.userId;
