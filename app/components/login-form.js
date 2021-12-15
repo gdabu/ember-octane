@@ -2,6 +2,8 @@ import Component from '@glimmer/component';
 import { action } from '@ember/object';
 
 export default class LoginFormComponent extends Component {
+  userId = 1;
+
   loginAsUserWithId(val) {
     console.log(val);
   }
